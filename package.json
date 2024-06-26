@@ -1,17 +1,13 @@
 {
   "name": "@cute-me-on-repos/inbucket-gt-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inbucket API client in typescript",
-  "engines": {
-    "//": "disable other engines",
-    "yarn": "<0",
-    "npm": "<0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "npm publish --access public",
     "build": "tsc"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/groovetch/inbucket-gt-client.git"
