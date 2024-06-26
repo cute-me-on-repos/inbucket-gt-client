@@ -97,6 +97,9 @@ export type Message = {
   text: string;
   attachments: any[];
   errors: any[];
+  body: {
+    text: string
+  }
   header: {
     "Content-Type": string[];
     Date: string[];
