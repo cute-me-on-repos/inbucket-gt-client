@@ -1,6 +1,6 @@
 {
   "name": "@cute-me-on-repos/inbucket-gt-client",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Inbucket API client in typescript",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,8 +20,8 @@
     "mail",
     "server"
   ],
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "author": "Kairis (Thien Ly)<lyluongthien@protonmail.com>",
   "license": "MIT",
   "bugs": {
