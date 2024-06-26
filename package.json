@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf lib; tsc",
-    "prepublish": "pnpm run build"
+    "prepublish": "pnpm run build",
+    "postpublish": "git push"
   },
   "type": "module",
   "repository": {
