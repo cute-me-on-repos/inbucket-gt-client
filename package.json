@@ -1,5 +1,5 @@
 {
-  "name": "inbucket-gt-client",
+  "name": "@lltpkg/inbucket-gt-client",
   "version": "1.0.0",
   "description": "Inbucket API client in typescript",
   "engines": {
