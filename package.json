@@ -1,0 +1,45 @@
+{
+  "name": "inbucket-gt-client",
+  "version": "1.0.0",
+  "description": "Inbucket API client in typescript",
+  "engines": {
+    "//": "disable other engines",
+    "yarn": "<0",
+    "npm": "<0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groovetch/inbucket-gt-client.git"
+  },
+  "keywords": [
+    "inbucket",
+    "realtime",
+    "api",
+    "client",
+    "webmail",
+    "mail",
+    "server"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Kairis (Thien Ly)<lyluongthien@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/groovetch/inbucket-gt-client/issues"
+  },
+  "homepage": "https://github.com/groovetch/inbucket-gt-client#readme",
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.11",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "ws": "^8.17.1"
+  }
+}
