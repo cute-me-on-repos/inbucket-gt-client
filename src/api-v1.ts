@@ -10,22 +10,27 @@
 export type APIV1Config = {
   host: string;
   endpoint: string;
+  protocol: string;
   port: number;
 };
 const defaultConfig = {
   host: "localhost",
   endpoint: "api/v1",
   port: 9000,
+  protocol: 'http',
 };
 export class APIV1 {
+  public url: string;
   public baseUrl: string;
   constructor(protected config: APIV1Config = defaultConfig) {
     const {
       host = defaultConfig.host,
       port = defaultConfig.port,
+      protocol = defaultConfig.protocol,
       endpoint = defaultConfig.endpoint,
     } = config;
-    this.baseUrl = `http://${host}:${port}/${endpoint}`;
+    this.url = `${host}:${port}/${endpoint}`;
+    this.baseUrl = `${protocol}://${this.url}`;
   }
 
   async listMailboxContents(name: string): Promise<Array<MailboxContent>> {
