@@ -1,6 +1,6 @@
 {
   "name": "@cute-me-on-repos/inbucket-gt-client",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Inbucket API client in typescript",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
