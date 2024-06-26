@@ -4,7 +4,8 @@
   "description": "Inbucket API client in typescript",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf lib; tsc"
+    "build": "rm -rf lib; tsc",
+    "prepublish": "pnpm run build"
   },
   "type": "module",
   "repository": {
